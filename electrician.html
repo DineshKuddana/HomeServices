@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Electrician - Home Services</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <header>
+        <div class="nav-wrapper">
+            <!-- LEFT: LOGO + HEADING -->
+            <div class="left">
+                <a href="./index.html">
+                    <img src="https://callforhomeservices.com/wp-content/uploads/2025/02/cropped-Logo-white-350.webp"
+                        alt="Logo" class="logo" />
+                </a>
+            </div>
+
+            <!-- CENTER: NAVIGATION -->
+            <nav class="nav-links" id="navLinks">
+                <a href="./index.html">Home</a>
+                <a href="./about.html">About Us</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Service List <span class="drop-btn">▼</span></button>
+                    <div class="dropdown-content">
+                        <a href="./appliance.html">Appliance Repair</a>
+                        <a href="./electrician.html">Electrician</a>
+                        <a href="#">Garage Door Repair</a>
+                        <a href="#">Home Security</a>
+
+                        <a href="#">Lawn Maintenance</a>
+                        <a href="#">HVAC</a>
+                        <a href="#">Pest Control</a>
+                        <a href="#">Plumbing</a>
+
+                        <a href="#">Roofing Floor</a>
+                        <a href="#">Water Damage</a>
+                        <a href="#">Window Services</a>
+                        <a href="#">Door Services</a>
+
+                    </div>
+                </div>
+                <a href="/contact.html">Contact Us</a>
+            </nav>
+
+            <!-- RIGHT: CONTACT + TOGGLE -->
+            <div class="right">
+                <div class="contact">
+                    <div class="phone">(888) 888-8888</div>
+                    <div class="status"><span class="dot"></span> 24/7 Hour Service</div>
+                </div>
+                <div class="hamburger" onclick="toggleMenu()">☰</div>
+            </div>
+        </div>
+    </header>
+
+
+
+
+
+
+
+
+
+    <!-- HERO Section -->
+
+    <section class="hero">
+        <div class="hero-container">
+            <div class="badge">We're Available Today</div>
+            <h1 class="main-heading">Professional Electrician Services</h1>
+            <p class="subtext">
+
+                Call us 24/7 at (888) 723-7228
+            </p>
+            <button class="cta-button">Call For Service <span class="arrow">→</button>
+
+            <div class="features-grid">
+                <div class="feature">
+                    <h3>Fast, 24/7</h3>
+                    <p>Same Day Service</p>
+                </div>
+                <div class="feature">
+                    <h3>Affordable</h3>
+                    <p>Up-Front Quotes</p>
+                </div>
+                <div class="feature">
+                    <h3>Residential</h3>
+                    <p>Experts Technitians</p>
+                </div>
+                <div class="feature">
+                    <h3>24-Hour</h3>
+                    <p>Emergency Repair</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <!-- Image -->
+
+
+    <section class="image-hover-section">
+        <div class="image-wrapper">
+            <img src="https://callforhomeservices.com/wp-content/uploads/2025/02/Professional-Electrician-Services.webp"
+                alt="Service" />
+        </div>
+    </section>
+
+
+
+
+    <!-- Service  -->
+
+
+    <section class="services-section" id="content-boxed-wrapper">
+        <div class="content-container">
+            <div class="services-content">
+                <h2>Professional Electric Services <br> Available 24/7</h2>
+                <p>
+                    At Call For Home Repairs, we provide expert electrical repair and installation services to keep your
+                    home safe and powered. Whether you’re dealing with faulty wiring, power outages, flickering lights,
+                    or need a complete electrical upgrade, our licensed electricians are available 24/7 to handle all
+                    your electrical needs.
+
+                </p>
+            </div>
+
+
+            <div class="content-container">
+                <div class="service-lists">
+                    <ul class="checklist">
+                        <li><span class="check-icon">✔</span> HVAC</li>
+                        <li><span class="check-icon">✔</span> Plumbing</li>
+                        <li><span class="check-icon">✔</span> Roofing Floor</li>
+                        <li><span class="check-icon">✔</span> Home Appliances</li>
+                        <li><span class="check-icon">✔</span> Windows And Doors</li>
+                        <li><span class="check-icon">✔</span> Electrician</li>
+                    </ul>
+                    <ul class="checklist">
+                        <li><span class="check-icon">✔</span> Water Damage</li>
+                        <li><span class="check-icon">✔</span> Appliance Repair</li>
+                        <li><span class="check-icon">✔</span> Home Security</li>
+                        <li><span class="check-icon">✔</span> Lawn Maintenance</li>
+                        <li><span class="check-icon">✔</span> Pest Control</li>
+                        <li><span class="check-icon">✔</span> Garage Door Repair</li>
+                    </ul>
+                </div>
+
+                <p class="note">
+                    Give us a call today at <strong>(888) 888-8888</strong> to schedule service or request an estimate.
+                    Our residential service experts are available 24/7, ready to take your call.
+                </p>
+
+                <h3 class="note2">Our Electrical Services Include:</h3>
+                <p class="subtextt">
+                    At Call For Home Repairs, we provide top-quality home maintenance and repair services to keep your
+                    property in excellent condition. With a team of skilled professionals, we specialize in HVAC,
+                    plumbing, roofing, flooring, home appliances, windows and doors, lawn maintenance, electrical work,
+                    water damage restoration, appliance repair, home security, home warranty, pest control, and garage
+                    door repair.
+                </p>
+
+                <p class="highlightt">
+                    <strong>No matter how big or small your job is, our technicians can repair, replace or install any
+                        of the following:</strong>
+                </p>
+            </div>
+
+
+
+            <div class="content-container">
+                <!-- <h2 class="mission">Our Mission</h2> -->
+                <!-- <p class="mission-intro">
+                    Our goal is simple: to provide <strong>top-notch home repair and maintenance services</strong>
+                    that ensure your home remains safe, comfortable, and fully functional. We believe in
+                    <strong>quality craftsmanship, honest pricing, and exceptional customer service</strong>.
+                </p> -->
+
+                <div class="mission-points">
+                    <div class="mission-point">
+                        <span class="icon">➤</span>
+                        <div class="text">
+                            <h4>Electrical Repairs</h4>
+                            <p>
+                                Fixing faulty outlets, circuit breakers, and wiring issues to prevent hazards
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="mission-point">
+                        <span class="icon">➤</span>
+                        <div class="text">
+                            <h4>Lighting Installation & Repairs</h4>
+                            <p>
+                                Installing and repairing indoor and outdoor lighting for safety and efficiency.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="mission-point">
+                        <span class="icon">➤</span>
+                        <div class="text">
+                            <h4>Panel Upgrades & Circuit Breakers</h4>
+                            <p>
+                                Ensuring your home’s electrical panel can handle modern power demands.
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="mission-point">
+                        <span class="icon">➤</span>
+                        <div class="text">
+                            <h4>Wiring & Rewiring</h4>
+                            <p>
+                                Safe and efficient wiring solutions for new homes, renovations, or repairs.
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="mission-point">
+                        <span class="icon">➤</span>
+                        <div class="text">
+                            <h4>Ceiling Fan Installation</h4>
+                            <p>
+                                Professional installation of ceiling fans for better air circulation and comfort.
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="mission-point">
+                        <span class="icon">➤</span>
+                        <div class="text">
+                            <h4>Surge Protection</h4>
+                            <p>Installing surge protectors to safeguard your appliances and electronics. Professional
+                                installation of ceiling fans for better air circulation and comfort.
+                            </p>
+                        </div>
+                    </div>
+
+
+
+                    <div class="mission-point">
+                        <span class="icon">➤</span>
+                        <div class="text">
+                            <h4>Smoke & Carbon Monoxide Detectors</h4>
+                            <p>
+                                Installation and maintenance to keep your family safe.
+                            </p>
+                        </div>
+                    </div>
+
+
+
+                    <div class="mission-point">
+                        <span class="icon">➤</span>
+                        <div class="text">
+                            <h4>Generator Installation</h4>
+                            <p>
+                                Backup power solutions for when the grid goes down.
+                            </p>
+                        </div>
+                    </div>
+
+
+
+                    <div class="mission-point">
+                        <span class="icon">➤</span>
+                        <div class="text">
+                            <h4>EV Charger Installation</h4>
+                            <p>
+                                Installing home charging stations for electric vehicles.
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <p class="mission-line">Have a question? Give us a call at (888) 888-8888 to speak with a request
+                        job estimate.</p>
+
+
+
+
+
+
+
+                    <h2 class="mission">Why Choose Us?</h2>
+                    <p class="mission-intro">
+                        Our mission is to deliver high-quality, affordable, and dependable home services that keep your
+                        property safe, comfortable, and well-maintained. We take pride in our work and strive to exceed
+                        customer expectations on every project.
+                    </p>
+
+                    <div class="mission-points">
+                        <div class="mission-point">
+                            <span class="icon">➤</span>
+                            <div class="text">
+                                <h4>24/7 Emergency Service</h4>
+                                <p>
+                                    We’re available anytime for urgent electrical issues.
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div class="mission-point">
+                            <span class="icon">➤</span>
+                            <div class="text">
+                                <h4>Licensed & Experienced Electricians</h4>
+                                <p>
+                                    Skilled professionals ensuring safe and reliable work.
+
+                                </p>
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="mission-point">
+                            <span class="icon">➤</span>
+                            <div class="text">
+                                <h4>Fast Response Times</h4>
+                                <p>
+                                    Immediate service to prevent potential hazards.
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div class="mission-point">
+                            <span class="icon">➤</span>
+                            <div class="text">
+                                <h4>Affordable & Transparent Pricing</h4>
+                                <p>
+                                    No hidden fees—just fair, honest pricing.
+                                </p>
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="mission-point">
+                            <span class="icon">➤</span>
+                            <div class="text">
+                                <h4>Customer Satisfaction Guaranteed</h4>
+                                <p>
+                                    We take pride in our work and prioritize your safety.
+                                </p>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <p class="mission-line">We’re here to relieve the stress from all your plumbing problems! Our
+                        customer service agents are available 24/7 to take your call. Contact us today at (888) 888-8888
+                        for fast, friendly service.
+                    </p>
+
+                    <h2 style="color: black;">Call Us for Fast & Reliable Electrical Services!</h2>
+
+                    <p class="caller-line">Need an electrician? Don’t wait—electrical issues can be dangerous! Contact
+                        Call For Home Repairs today for expert electrical repairs and installations.</p>>
+                </div>
+
+
+
+
+
+            </div>
+    </section>
+
+
+
+
+
+
+    <!-- Cnt -->
+
+
+
+    <!-- Home Service Section (Starts from the Badge) -->
+    <section class="home-service">
+        <div class="badge">We're Available Today</div>
+        <h1>Plumbing Service</h1>
+        <p>
+            Same-Day Plumbing Service & Repair.<br>
+            Call us 24/7 at (888) 723-7228
+        </p>
+        <button><a href="">Call ForService ➜</a></button>
+
+
+
+
+
+    </section>
+
+    <footer class="footer">
+
+        <hr />
+        <div class="footer-top">
+            <p class="copyright">© 2025 Call For Home Repairs</p>
+            <div class="footer-links">
+                <a href="#">Contact Us</a>
+                <a href="/about.html">About Us</a>
+            </div>
+        </div>
+
+        <div class="footer-disclaimer">
+            <p>
+                CallForHomeRepairs.com functions as a complimentary referral service which facilitates connections
+                between users and local companies. Each company operates independently, and Callforhomeservices.com
+                neither guarantees nor warrants any work carried out. Users are responsible for verifying that the hired
+                contractor possesses the required licenses and insurance for the task at hand. Callforhomeservices.com
+                does not directly employ the contractors utilizing our service. Availability of 24-hour service and
+                same-day appointments is contingent upon schedule openings. Any issues pertaining to the service
+                rendered fall under the responsibility of the relevant facility. Mentioned third-party products, brands,
+                or trademarks remain the sole property of their respective owners, with no intended or implied
+                affiliation or endorsement.
+            </p>
+
+
+            <p class="disclaimer">
+
+                Disclamer: Smart Home Appliance is a free service to assist homeowners in connecting with local service
+                providers. All contractors/providers are independent and Smart Home Appliance does not warrant or
+                guarantee any work performed. It is the responsibility of the homeowner to verify that the hired
+                contractor furnishes the necessary license and insurance required for the work being performed. All
+                persons depicted in a photo or video are actors or models and not contractors listed on Smart Home
+                Appliance.
+
+            </p>
+
+
+
+
+
+        </div>
+
+
+
+
+    </footer>
+
+
+
+
+
+
+
+
+    <div class="fixed-footer">
+        <a href="tel:18002020607">Call Now : 18002020607 </a>
+        <button id="scrollToTopBtn" title="Go to top">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+    </div>
+
+
+
+
+
+    <a href="tel:18002020607" class="ripple-call-btn" aria-label="Call Now">
+        <span class="ripple-ring"></span>
+        <span class="ripple-ring delay"></span>
+        <i class="fas fa-phone"></i>
+    </a>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
